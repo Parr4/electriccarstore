@@ -47,6 +47,7 @@ nav {
 h1 {
     /* margin: 0; */
     text-transform: uppercase;
+    color: white;
 }
 
 li {
@@ -146,9 +147,7 @@ select{
 
 
 @media (max-width: 576px) {
-    h1 {
-        color: purple
-    }
+
     aside{
         display: none;
     }
@@ -164,7 +163,7 @@ height: 50vh;
 
 @media (min-width: 576px) {
     h1 {
-        color: green;
+
         font-size: 1rem;
         text-align: center;
         
@@ -190,9 +189,7 @@ height: 50vh;
 }
 
 @media (min-width: 992px) {
-    h1 {
-        color: chocolate
-    }
+
     aside{
         display: initial;
     }
